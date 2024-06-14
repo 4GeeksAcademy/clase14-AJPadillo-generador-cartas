@@ -1,1 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#headerCard,
+#footerCard {
+  font-size: 5rem;
+}
+
+#centerCard {
+  font-size: 9rem;
+}
+
+#footerCard {
+  transform: rotate(180deg);
+}
+
+.card {
+  border-radius: 15px;
+}

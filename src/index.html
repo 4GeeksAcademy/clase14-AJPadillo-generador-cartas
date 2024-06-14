@@ -11,18 +11,23 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container-fluid d-flex justify-content-center bg-success">
+      <div class="col-md-2 card m-3">
+        <div
+          id="headerCard"
+          class="d-flex justify-content-start mx-2 mt-0 headerPintas"
+        ></div>
+        <div
+          id="centerCard"
+          class="d-flex justify-content-center m-2 py-2"
+        ></div>
+        <div
+          id="footerCard"
+          class="d-flex justify-content-start mx-2 mb-0 footerPintas"
+        ></div>
       </div>
     </div>
   </body>
